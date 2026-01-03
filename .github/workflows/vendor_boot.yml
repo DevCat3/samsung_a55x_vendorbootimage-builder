@@ -18,7 +18,7 @@ on:
       DEVICE_MAKEFILE:
         description: 'Device Makefile, eg. twrp_codename'
         required: true
-        default: 'twrp_a55x'
+        default: 'twrp_essi'
         
 jobs:
   build:
