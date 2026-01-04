@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       DEVICE_TREE:
-        description: 'Device Tree URL eg. https://github.com/<owner>/<repo>'
+        description: 'Device Tree URL eg'
         required: true
-        default: 'https://github.com/MrFluffyOven/android_device_samsung_a55x'
+        default: 'https://github.com/DevCat3/android_device_samsung_a55x'
       DEVICE_BRANCH:
-        description: 'Device Tree Branch, eg. twrp-12.1'
+        description: 'Device Tree Branch'
         required: true
-        default: 'twrp-12.1'
+        default: 'android-11.0'
       DEVICE_PATH:
         description: 'Device Path, eg. device/vendor/codename'
         required: true
@@ -23,10 +23,10 @@ on:
         description: 'Direct URL to stock vendor_boot.img'
         required: true
       PRODUCT_NAME:
-        description: 'Product name (codename), eg: a55x'
+        description: 'Product name (codename)'
         required: true
       TWRP_VERSION:
-        description: 'TWRP Version eg. 3.7.0_12'
+        description: 'TWRP Version'
         required: true
         default: '3.7.0_12'
 
